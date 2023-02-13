@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/071ce22960.js" crossorigin="anonymous"></script>
+
+    <title>Website</title>
+</head>
+<body class="blog-body">
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/dotlogo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Offers & Online Bussiness Programs For 2023</h1>
+    </section>
+
+    
+    <!----Blog Content---->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/student.jpg" alt="">
+                <h2>Our Offers & Online Bussiness Programs For 2023</h2>
+                <p>
+
+                    "Welcome to Our Offers & Online Business Programs for 2023! As we enter a new year, it's time to take your business to the next level. Our team has been hard at work developing new and exciting programs to help you achieve your goals and grow your business online.
+                    
+                    Our Offers:</p>
+                <br>
+                <p>Comprehensive e-Commerce Package - Boost your online sales with our comprehensive e-Commerce package, designed to help you create a seamless shopping experience for your customers.
+
+                    Online Marketing Campaign - Reach your target audience with our online marketing campaign, including social media marketing, search engine optimization, and email marketing.
+                    
+                    Website Development - Take your website to the next level with our custom website development services, tailored to your business needs.
+                    
+                    Virtual Events - Host virtual events that engage and delight your customers, and help you build your brand.</p>
+                <br>
+                <p><p>Online Business Programs:
+
+                    Entrepreneurial Mentorship Program - Get guidance and support from successful entrepreneurs in your industry.
+                    
+                    Business Growth Workshop - Learn the latest strategies for growing your business online.
+                    
+                    Online Networking Opportunities - Connect with other business owners and industry experts to grow your network and gain new insights.
+                    
+                    Webinars and Online Courses - Stay up-to-date on the latest trends and best practices in online business through our webinars and online courses.</p>
+
+                <br>
+                <p>Don't miss out on this opportunity to take your business to the next level in 2023. Contact us today to learn more about our offers and online business programs."</p>
+
+
+
+                <div class="comment-blog">
+                    <h3>Leave A Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button class="hero-btn red-btn" onclick="myFunction()">POST COMMENT</button>
+                    </form>
+                    
+                </div>      
+
+
+
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>37</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>45</span>
+                </div>
+                <div>
+                    <span>Data Visualization</span>
+                    <span>52</span>
+                </div>
+                <div>
+                    <span>Big Data Analytics</span>
+                    <span>60</span>
+                </div>
+                <div>
+                    <span>Artificial Intelligence</span>
+                    <span>68</span>
+                </div>
+                <div>
+                    <span>Deep Learning</span>
+                    <span>75</span>
+                </div>
+                <div>
+                    <span>Data Mining</span>
+                    <span>83</span>
+                </div>
+                <div>
+                    <span>Predictive Analytics</span>
+                    <span>90</span>
+                </div>
+                <div>
+                    <span>Statistical Modeling</span>
+                    <span>98</span>
+                </div>
+                <div>
+                    <span>Data Warehousing </span>
+                    <span>105</span>
+                </div>
+                <div>
+                    <span>Data Engineering</span>
+                    <span>113</span>
+                </div>
+                <div>
+                    <span>Business Intelligence</span>
+                    <span>121</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+
+        function myFunction() {
+            alert("This function is Disabled at the Moment");
+        }
+
+    </script>
+
+    
+
+
+    <!----Footer---->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            Our company was founded on October 16, 2021, and since then it has been actively leading in a number of areas,
+             such as: aviation development, business class course, construction system and others. <br>  
+             What is most important for the future is planned to add an information technology course, since the future belongs to technology.</p>
+        <div class="icons">
+    
+        </div>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+        <p>Made By Luka Akhalkatsi</p>
+    </section>
+
+
+</body>
+</html>
